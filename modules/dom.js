@@ -8,20 +8,17 @@ const select = (type) => {
             const element = document.getElementById(product.id);
             element.classList.add('block');
             element.classList.remove('hidden');
-            console.log(element);
         })
         productsToHide.forEach(product => {
             const element = document.getElementById(product.id);
             element.classList.add('hidden');
             element.classList.remove('block');
-            console.log(element);
         })
     } else {
         products.forEach(product => {
             const element = document.getElementById(product.id);
             element.classList.add('block');
             element.classList.remove('hidden');
-            console.log(element);
         })
     }
 }
