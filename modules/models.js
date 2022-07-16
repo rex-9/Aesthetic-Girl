@@ -1,3 +1,16 @@
+const types = [
+    "All Items",
+    "Stylus Pen",
+    "Drawing Tablet",
+    "Keyboard and Sets",
+    "Apple Pencil Cover",
+    "Apple accessories",
+    "Tablet accessories",
+    "Phone accessories",
+    "Stand",
+    "Earphones and accessories"
+]
+
 const products = [{
     id: 1,
     name: 'Ipad Pouch',
@@ -108,4 +121,4 @@ const products = [{
     count: 25
 }]
 
-export default products;
+export { products, types };

@@ -1,4 +1,4 @@
-import products from "./products.js";
+import products from "./models.js";
 
 let id = localStorage.getItem('id');
 

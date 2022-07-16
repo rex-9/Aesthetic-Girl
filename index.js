@@ -1,7 +1,6 @@
-import products from './modules/products.js';
-import { loadCards, select } from './modules/dom.js'
+import { loadCards, select, options } from './modules/dom.js'
 
-localStorage.setItem('products', JSON.stringify(products));
+options();
 
 loadCards();
 

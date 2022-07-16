@@ -1,4 +1,14 @@
-import products from './products.js';
+import { products, types } from './models.js';
+
+const options = () => {
+    const selector = document.getElementById('selector');
+    types.forEach((type) => {
+        const option = document.createElement('option');
+        option.value = type;
+        option.innerHTML = type;
+        selector.appendChild(option);
+    })
+}
 
 const select = (type) => {
     if (type !== "All Items") {
@@ -52,5 +62,6 @@ const loadCards = () => {
 
 export {
     loadCards,
-    select
+    select,
+    options
 };
