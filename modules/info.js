@@ -34,14 +34,14 @@ let index = 0;
 const imageContainer = document.getElementById('image-container');
 
 imageContainer.innerHTML = `
-    <img id="display-img" class="w-2/3 rounded-lg border-4" src=${products[id-1].img[index]} alt="">
+    <img id="display-img" class="w-2/3 rounded-lg border-4" src=".${products[id-1].img[index]}" alt="">
     <div class="flex justify-center gap-4 items-center">
         <span id="prev" class="w-1/5 h-36 p-2 bg-pink-200 rounded-lg cursor-pointer">
-            <img id="prev-img" class="rounded-lg" src=${products[id-1].img[index-1]} alt="">
+            <img id="prev-img" class="rounded-lg" src=".${products[id-1].img[index-1]}" alt="">
         </span>
-        <img id="current-img" class="w-1/4 rounded-lg border-4" src=${products[id-1].img[index]} alt="">
+        <img id="current-img" class="w-1/4 rounded-lg border-4" src=".${products[id-1].img[index]}" alt="">
         <span id="next" class="w-1/5 h-36 p-2 bg-pink-200 rounded-lg cursor-pointer">
-            <img id="next-img" class="rounded-lg" src=${products[id-1].img[index+1]} alt="">
+            <img id="next-img" class="rounded-lg" src=".${products[id-1].img[index+1]}" alt="">
         </span>
     </div>`
 
