@@ -8,5 +8,4 @@ const selector = document.getElementById('selector');
 
 selector.addEventListener('change', (e) => {
     select(selector.value)
-    e.preventDefault();
 });

@@ -40,7 +40,7 @@ const loadCards = () => {
         card.id = product.id;
         card.classList.add('bg-white', 'rounded-lg', 'm-2', 'cursor-pointer', 'shadow-lg', 'hover:shadow-pink-500/40', 'hover:ease-linear', 'hover:duration-500', 'hover:scale-105')
         card.innerHTML = `<a href="./pages/info.html" class='relative'>
-                            <img src='${product.img}' class='z-0 object-cover w-56 h-40 rounded-t-lg'>
+                            <img src='${product.img[0]}' class='z-0 object-cover w-56 h-40 rounded-t-lg'>
                             <p class="text-center text-lg font-bold pt-1 w-56">
                                ${product.id}. ${product.name}
                             </p>
@@ -49,7 +49,7 @@ const loadCards = () => {
                                     ${product.price} kyats
                                 </p>                                    
                                 <p class="text-pink-500 font-bold">
-                                    ${product.count} instock
+                                    instock: ${product.count}
                                 </p>
                             </div>
                         </a>`

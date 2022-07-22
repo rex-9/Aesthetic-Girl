@@ -15,9 +15,10 @@ const products = [{
     id: 1,
     name: 'Ipad Pouch',
     price: 500000,
-    img: './asset/ipad-pouch.png',
+    img: ['../asset/ipad-pouch.png', '../asset/laptop-stand.png', '../asset/aesthetic-girl.png'],
     type: 'Apple accessories',
-    model: '2020',
+    size: '20x20',
+    demo: 'https://www.youtube.com',
     info: `🌧 June Giveaway Included 🫶🏻 ☔️
     <br>(အဆုံးထိ ဖတ်ပေးပါနော် 🥰) 
     <br>🌻 ဒီ post မှာ ရှိသမျှ Instock ဘုစုခရုလေးတွေ အကုန် ထည့်ပေးထားပြီးတော့ စျေးတွေရော Specifications လဲ ရေးပေးထားပါမယ်ရှင့် ☕️
@@ -43,9 +44,10 @@ const products = [{
     id: 2,
     name: 'Laptop Stand',
     price: 1000,
-    img: './asset/laptop-stand.png',
+    img: ['../asset/laptop-stand.png'],
     type: 'Stand',
-    model: '2022',
+    size: '20x22',
+    demo: 'https://www.youtube.com',
     info: 'All Stands',
     instock: true,
     count: 25
@@ -53,9 +55,10 @@ const products = [{
     id: 3,
     name: 'Laptop Stand',
     price: 1000,
-    img: './asset/laptop-stand.png',
+    img: ['../asset/laptop-stand.png'],
     type: 'Stylus Pen',
-    model: '2022',
+    size: '20x22',
+    demo: 'https://www.youtube.com',
     info: 'ipad info',
     instock: true,
     count: 25
@@ -63,9 +66,10 @@ const products = [{
     id: 4,
     name: 'Laptop Stand',
     price: 1000,
-    img: './asset/laptop-stand.png',
+    img: ['../asset/laptop-stand.png'],
     type: 'Drawing Tablet',
-    model: '2022',
+    size: '20x22',
+    demo: 'https://www.youtube.com',
     info: 'ipad info',
     instock: true,
     count: 25
@@ -73,9 +77,10 @@ const products = [{
     id: 5,
     name: 'Laptop Stand',
     price: 1000,
-    img: './asset/laptop-stand.png',
+    img: ['../asset/laptop-stand.png'],
     type: 'Keyboard and Sets',
-    model: '2022',
+    size: '20x22',
+    demo: 'https://www.youtube.com',
     info: 'ipad info',
     instock: true,
     count: 25
@@ -83,9 +88,10 @@ const products = [{
     id: 6,
     name: 'Laptop Stand',
     price: 1000,
-    img: './asset/laptop-stand.png',
+    img: ['../asset/laptop-stand.png'],
     type: 'Apple Pencil Cover',
-    model: '2022',
+    size: '20x22',
+    demo: 'https://www.youtube.com',
     info: 'ipad info',
     instock: true,
     count: 25
@@ -93,9 +99,10 @@ const products = [{
     id: 7,
     name: 'Laptop Stand',
     price: 1000,
-    img: './asset/laptop-stand.png',
+    img: ['../asset/laptop-stand.png'],
     type: 'Tablet accessories',
-    model: '2022',
+    size: '20x22',
+    demo: 'https://www.youtube.com',
     info: 'ipad info',
     instock: true,
     count: 25
@@ -103,9 +110,10 @@ const products = [{
     id: 8,
     name: 'Laptop Stand',
     price: 1000,
-    img: './asset/laptop-stand.png',
+    img: ['../asset/laptop-stand.png'],
     type: 'Phone accessories',
-    model: '2022',
+    size: '20x22',
+    demo: 'https://www.youtube.com',
     info: 'ipad info',
     instock: true,
     count: 25
@@ -113,12 +121,16 @@ const products = [{
     id: 9,
     name: 'Laptop Stand',
     price: 1000,
-    img: './asset/laptop-stand.png',
+    img: ['../asset/laptop-stand.png'],
     type: 'Earphones and accessories',
-    model: '2022',
+    size: '20x22',
+    demo: 'https://www.youtube.com',
     info: 'ipad info',
     instock: true,
     count: 25
 }]
 
-export { products, types };
+export {
+    products,
+    types
+};
