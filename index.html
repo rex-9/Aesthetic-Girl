@@ -14,18 +14,21 @@
 <body class="bg-gray-200">
     <div class="md:hidden">
         <nav id="mobile-nav" class="bg-white flex justify-end pr-5 pt-2 cursor-pointer">
-            <img src="./asset/menu.svg" alt="menu">
+            <img src="./assets/menu.svg" alt="menu">
         </nav>
     </div>
     <div class="hidden md:block">
-        <nav id="desktop-nav" class="bg-white h-12 flex items-center justify-end pr-14">
+        <nav id="desktop-nav" class="bg-white h-12 flex items-center justify-between pl-8 pr-16">
+            <img class="w-8" src="./assets/logo.png" alt="">
             <a href="./pages/announce.html">
                 <p>Announcements</p>
             </a>
-            <select id="selector" class="ml-4 p-2 rounded-md border-2 border-pink-300">
-                <!-- options -->
-            </select>
         </nav>
+    </div>
+    <div class="w-full text-center md:text-end md:pr-12 mt-2">
+        <select id="selector" class="ml-4 p-2 rounded-md border-2 border-pink-300">
+            <!-- options -->
+        </select>
     </div>
     <div id="card-container" class="flex justify-center flex-wrap">
         <!-- products -->
