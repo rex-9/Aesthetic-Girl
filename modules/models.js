@@ -42,7 +42,7 @@ const products = [{
     id: 2,
     name: 'Laptop Stand',
     price: 1000,
-    img: ['./assets/laptop-stand.png'],
+    img: ['./assets/meme.jpeg'],
     type: 'Stand',
     size: '20x22',
     demo: 'https://www.youtube.com',
