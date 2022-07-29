@@ -13,7 +13,7 @@ const types = [
 
 const products = [{
     id: 1,
-    name: 'Ipad Pouch',
+    name: 'Ipad Cover',
     price: 500000,
     img: ['./assets/ipad-pouch.png', './assets/laptop-stand.png', './assets/aesthetic-girl.png'],
     type: 'Apple accessories',
